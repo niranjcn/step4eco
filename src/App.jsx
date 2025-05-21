@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import OpeningTimes from './components/OpeningTimes';
 import Banner from './components/Banner';
-import Slider from './components/slider';
+import Slider from './components/Slider';
 import HelpSection from './components/HelpSection';
 import ServiceSection from './components/ServiceSection';
 import ContactSection from './components/ContactSection';
