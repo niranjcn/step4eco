@@ -31,11 +31,11 @@ export default function Footer() {
               42 Green Drive, CleanTech Zone<br />New Delhi, India 110001
             </p>
             <p className="flex items-center">
-              <MdPhone className="text-green-500 mr-2" /> +91 9876543210
+              <MdPhone className="text-green-500 mr-2" /> 07554463387
             </p>
             <p className="flex items-center">
               <MdEmail className="text-green-500 mr-2" />
-              contact@step4eco.org
+              info.step4eco@gmail.com
             </p>
           </div>
         </div>

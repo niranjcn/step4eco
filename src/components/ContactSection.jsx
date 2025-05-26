@@ -20,7 +20,7 @@ const ContactSection = () => {
               <Mail className="text-green-500 w-6 h-6 sm:w-7 sm:h-7 animate-pulse" />
               <div className="text-left">
                 <p className="text-gray-700 text-sm font-medium">Email Us</p>
-                <p className="text-base sm:text-lg font-semibold text-gray-900 break-all">contact@greenfuture.org</p>
+                <p className="text-base sm:text-lg font-semibold text-gray-900 break-all">info.step4eco@gmail.com</p>
               </div>
             </div>
 
@@ -29,7 +29,7 @@ const ContactSection = () => {
               <Phone className="text-green-500 w-6 h-6 sm:w-7 sm:h-7 animate-pulse" />
               <div className="text-left">
                 <p className="text-gray-700 text-sm font-medium">Call Us</p>
-                <p className="text-base sm:text-lg font-semibold text-gray-900">+44 1234 567890</p>
+                <p className="text-base sm:text-lg font-semibold text-gray-900">07554463387</p>
               </div>
             </div>
           </div>
