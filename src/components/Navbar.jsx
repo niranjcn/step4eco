@@ -8,7 +8,7 @@ const navItems = [
   { name: 'ABOUT', path: '/about' },
   { name: 'SERVICES', path: '/services' },
   { name: 'CONTACT US', path: '/contact' },
-  { name: 'BLOG', path: '/blog' },
+  { name: 'ELIGIBILITY CHECKER', path: '/eligibility' },
 ];
 
 export default function Navbar() {

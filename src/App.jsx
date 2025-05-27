@@ -10,11 +10,13 @@ import ContactForm from './components/ContactForm';
 import FreeShower from './components/FreeShower';
 import FreeTicker from './components/FreeTicker';
 import ServicesOverview from './components/ServiceOverview';
+import EligibilityChecker from './components/EligibilityChecker';
 
 function App() {
   return (
     <>
       {/* Common layout: Always shown */}
+      <FreeTicker />
       <Banner />
       <Navbar />
 
@@ -24,10 +26,11 @@ function App() {
           path="/"
           element={
             <>
-              <FreeShower />
-              <FreeTicker />
+              
+              
               <Slider />
               <HelpSection />
+              
               <ContactSection />
               <ContactForm />
             </>
@@ -42,8 +45,8 @@ function App() {
           element={<ServicesOverview />}
         />
         <Route
-          path="/projects"
-          element={<h1 ></h1>}
+          path="/eligibility"
+          element={<EligibilityChecker />}
         />
         <Route
           path="/contact"
