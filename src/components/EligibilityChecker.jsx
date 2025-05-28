@@ -151,7 +151,7 @@ const EligibilityChecker = () => {
         className="relative z-10 w-full max-w-2xl bg-white p-8 rounded-3xl shadow-2xl border border-lime-500"
       >
         <h1 className="text-4xl font-extrabold text-center text-lime-500 mb-10 tracking-wide uppercase">
-          ECO4 Eligibility Checker
+          STEP4ECO Eligibility Checker
         </h1>
 
         {eligible === null ? (
