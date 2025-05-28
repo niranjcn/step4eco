@@ -27,11 +27,12 @@ function App() {
           element={
             <>
               
-              
+              <EligibilityChecker />
               <Slider />
+              
               <HelpSection />
               <ServiceSection />
-              <EligibilityChecker />
+              
               <ContactForm />
             </>
           }
