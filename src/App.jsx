@@ -30,8 +30,6 @@ function App() {
               
               <Slider />
               <HelpSection />
-              
-              <ContactSection />
               <ContactForm />
             </>
           }
