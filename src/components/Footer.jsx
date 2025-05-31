@@ -11,6 +11,9 @@ export default function Footer() {
           {/* Replace src below with your actual logo path */}
           <img src= {logo} alt="Step4Eco Logo" className="w-36 mb-4" />
           <p className="text-sm text-gray-300">
+            Step4Eco is a lead generation company specialising 
+            in connecting clients with top-tier installation teams across UK
+             through various fully  funded free government grants. 
             Step4Eco is dedicated to empowering communities with sustainable
             solutions through innovative energy practices and eco-conscious
             technologies.
@@ -28,7 +31,7 @@ export default function Footer() {
           <div className="text-gray-300 text-sm space-y-2">
             <p className="flex items-start">
               <MdLocationOn className="text-green-500 mt-1 mr-2" />
-              42 Green Drive, CleanTech Zone<br />New Delhi, India 110001
+              86 Llandaff Drive LL19 8TT<br />United Kingdom
             </p>
             <p className="flex items-center">
               <MdPhone className="text-green-500 mr-2" /> 07554463387
@@ -44,11 +47,11 @@ export default function Footer() {
         <div>
           <h2 className="text-xl font-semibold mb-4 text-white">Services</h2>
           <ul className="space-y-2 text-green-400 text-sm">
-            <li>Smart Waste Management</li>
-            <li>Eco-friendly Consultation</li>
-            <li>Renewable Energy Planning</li>
-            <li>Carbon Footprint Tracking</li>
-            <li>Sustainability Workshops</li>
+            <li>Solar Panel System</li>
+            <li>Wall Insulation</li>
+            <li>Roof Insulation</li>
+            <li>Heat Pumps</li>
+           
           </ul>
         </div>
       </div>
