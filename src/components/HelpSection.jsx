@@ -63,6 +63,16 @@ const HelpSection = () => {
                 Find out about grants and affordable loans <br />
                 through Home Energy Scotland or Business Energy Scotland. <br />
                 Visit the funding section on our website to learn more.
+                <br></br>
+                Types of funding:-
+                ✅ Grants  ,💷 Interest-free Loans ,🏠 Home Energy Grants , 🏢 Business Grants
+
+
+
+
+
+
+
               </p>
             </div>
           </div>
