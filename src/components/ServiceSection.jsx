@@ -1,7 +1,8 @@
 import React from 'react';
-import bgImage from '../assets/images/bgimage1.jpg';
-import { Lightbulb } from 'lucide-react';
+import bgImage from '../assets/images/bgimage1.jpg'; // Background image for the section
+import { Lightbulb } from 'lucide-react'; // Icon for services
 
+// Array of service objects, each containing a title, description, and benefit.
 const services = [
   {
     title: "Solar Panel Systems",
@@ -27,42 +28,52 @@ const services = [
 
 const ServiceSection = () => {
   return (
+    // Main section container with a fixed background image for a parallax-like effect.
+    // Enhanced overlay for better text readability.
     <section
-      className="relative bg-center bg-cover text-white"
+      className="relative bg-center bg-cover text-white font-inter"
       style={{
         backgroundImage: `url(${bgImage})`,
-        backgroundAttachment: 'fixed',
-        minHeight: '80vh',
+        backgroundAttachment: 'fixed', // Ensures the background image scrolls with a parallax effect
+        minHeight: '85vh', // Slightly increased minimum height for more impact
       }}
     >
-      {/* Overlay */}
-      <div className="bg-black/50 w-full h-full px-4 py-16 sm:py-20 md:py-24 lg:py-28">
+      {/* Dark overlay for better text contrast and a modern look */}
+      <div className="bg-black/60 w-full h-full px-4 py-16 sm:py-20 md:py-24 lg:py-28">
         {/* Section Heading */}
-        <div className="text-center mb-10 sm:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-lime-300 drop-shadow-md">
             SERVICES WE PROVIDE
           </h2>
-          <p className="text-base sm:text-lg mt-2">
+          <p className="text-lg sm:text-xl mt-3 text-gray-200">
             TO SUPPLY & INSTALL
           </p>
-          <p className="text-sm sm:text-base mt-1">
+          <p className="text-base sm:text-lg mt-2 text-gray-300">
             ENERGY-EFFICIENT IMPROVEMENTS
           </p>
         </div>
 
         {/* Services Grid */}
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 md:gap-10 px-2 sm:px-4">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 md:gap-12 px-2 sm:px-4">
           {services.map((service, index) => (
+            // Individual service card with a frosted glass effect, shadows, and hover animations.
             <div
               key={index}
-              className="bg-white/30 backdrop-blur-sm text-black shadow-lg px-6 py-16 sm:p-12 flex flex-col items-center justify-center text-center rounded-md hover:scale-105 transition-transform duration-300"
+              className="bg-white/15 backdrop-blur-md text-white shadow-xl px-7 py-16 sm:p-14
+                         flex flex-col items-center justify-center text-center rounded-xl
+                         hover:scale-105 transition-transform duration-400 ease-out
+                         border border-white/20 transform hover:shadow-2xl hover:bg-white/20 cursor-pointer"
             >
-              <Lightbulb className="w-10 h-10 sm:w-12 sm:h-12 mb-4 text-yellow-500" />
-              <h3 className="font-semibold text-sm sm:text-base md:text-lg mb-1">
+              {/* Icon for the service, with a vibrant green color and subtle animation */}
+              <Lightbulb className="w-12 h-12 sm:w-14 sm:h-14 mb-5 text-lime-400 animate-pulse-slow" />
+              {/* Service title with bold, uppercase styling */}
+              <h3 className="font-bold text-lg sm:text-xl md:text-2xl mb-2 text-lime-200">
                 {service.title.toUpperCase()}
               </h3>
-              <p className="text-xs sm:text-sm">{service.description}</p>
-              <p className="text-xs sm:text-sm font-medium mt-1 text-green-700">{service.benefit}</p>
+              {/* Service description */}
+              <p className="text-sm sm:text-base text-gray-100 leading-relaxed">{service.description}</p>
+              {/* Service benefit with a distinct green color */}
+              <p className="text-sm sm:text-base font-semibold mt-3 text-emerald-400">{service.benefit}</p>
             </div>
           ))}
         </div>

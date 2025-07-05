@@ -12,15 +12,15 @@ export default function Banner() {
           <div className="flex items-center gap-4 hover:text-green-400 transition">
             <Mail className="text-green-400" />
             <div>
-              <div className="text-xl font-bold">0000 00000</div>
-              <div className="text-sm">step4eco.com</div>
+              <div className="text-xl font-bold">07554463387</div>
+              <div className="text-sm">info.step4eco@gmail.com</div>
             </div>
           </div>
           <div className="flex items-center gap-4 hover:text-green-400 transition mt-4 md:mt-0">
             <MapPin className="text-green-400" />
             <div>
-              <div className="text-xl font-bold">xx xxxxx xxxxx</div>
-              <div className="text-sm">xx xxxxxxx xxxxx</div>
+              <div className="text-xl font-bold">86 Llandaff Drive LL19 8TT</div>
+              
             </div>
           </div>
         </div>

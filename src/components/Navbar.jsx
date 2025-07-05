@@ -24,7 +24,7 @@ export default function Navbar() {
         </div>
 
         {/* Nav links for desktop */}
-        <div className="hidden md:flex gap-15">
+        <div className="hidden md:flex gap-20">
           {navItems.map((item) => (
             <NavLink
               key={item.name}

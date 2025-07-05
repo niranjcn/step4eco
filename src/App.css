@@ -1,1 +1,58 @@
+/* App.css */
 @import "tailwindcss";
+
+/*
+  Custom CSS for animations and global styles.
+  Tailwind CSS is imported above, so most styling is done via utility classes.
+*/
+
+/* Define custom keyframes for animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply custom animations using Tailwind's @layer utilities */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+  /* Delay animations for staggered effects */
+  .delay-100 {
+    animation-delay: 0.1s;
+  }
+  .delay-200 {
+    animation-delay: 0.2s;
+  }
+  .delay-300 {
+    animation-delay: 0.3s;
+  }
+}
+
+/* Ensure a consistent font family across the application */
+body {
+  font-family: 'Inter', sans-serif; /* Using Inter as a modern sans-serif font */
+}
+
+/*
+  Note: Most styling will be handled directly in JSX components
+  using Tailwind CSS classes for better maintainability and responsiveness.
+*/
