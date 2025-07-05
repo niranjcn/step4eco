@@ -15,7 +15,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="lg:bg-[#97f14e] sm:bg-gray-800 md:bg-gray-800 shadow-md sticky top-0 z-50">
+    <header className="lg:bg-[#97f14e] bg-gray-800 md:bg-gray-800 shadow-md sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-6 py-8 flex justify-around items-center">
 
         {/* Logo (only for screens smaller than md) */}
