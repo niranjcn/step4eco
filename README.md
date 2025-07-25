@@ -56,3 +56,56 @@ To get a local copy up and running, follow these steps:
 Ensure you have the latest version of **Node.js** and **npm**:
 ```bash
 npm install npm@latest -g
+
+📦 Installation
+Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/your_username/step4eco.git
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Start the development server
+
+bash
+Copy
+Edit
+npm run dev
+Open your browser and visit:
+http://localhost:5173
+
+📖 Usage
+Navigate through the site using the navigation bar. Explore services, use the Eligibility Checker to determine qualification for free upgrades (like a shower head), and send inquiries via the Contact Form powered by EmailJS.
+
+📎 Project Structure
+bash
+Copy
+Edit
+step4eco/
+├── public/
+├── src/
+│   ├── assets/          # Images and logos
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Page sections (Home, Services, Contact)
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js
+├── package.json
+└── vite.config.js
+📫 Contact
+Niranj C N
+📧 Email: email@example.com
+🐦 Twitter: @your_twitter
+🔗 GitHub: github.com/your_username
+
+🙌 Acknowledgements
+React Icons
+
+Lucide React
+
+Google Fonts
